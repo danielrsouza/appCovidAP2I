@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="50dp"
+    android:background="@color/corBordaDosItensMain"
+    >
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/corFundoMain"
+    android:padding="16dp"
+    tools:ignore="UselessParent">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="MORTES"
+        android:textAlignment="center"
+        android:textColorHint="@color/corItemDaLista"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/corItemDaLista"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:hint="SUSPEITOS"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="clip_horizontal|center"
+        android:hint="DATA"
+        android:textAlignment="center"
+        android:textColorHint="@color/corItemDaLista"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/corFundoMain"
+        android:textColor="@color/corItemDaLista"
+        android:padding="16dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColorHint="@color/corItemDaLista"
+            android:textColor="@color/corItemDaLista"
+            android:textAlignment="center"
+            android:hint="dados"
+            android:id="@+id/txMortes"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/corItemDaLista"
+            android:textColor="@color/corItemDaLista"
+            android:textAlignment="center"
+            android:hint="dados"
+            android:id="@+id/txSuspeitos"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/corItemDaLista"
+            android:textAlignment="center"
+            android:textColor="@color/corItemDaLista"
+            android:hint="dados"
+            android:id="@+id/txData"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

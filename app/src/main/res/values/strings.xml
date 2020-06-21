@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">Covid19</string>
+  <string name="titulo_dados_gerais">BOLETIM EPIDEMIOLÓGICO CORONAVÍRUS</string>
+  <string name="casos_supeitos">CASOS SUSPEITOS</string>
+  <string name="casos_confirmados">CASOS CONFIRMADOS</string>
+  <string name="isolamento_domiciliar">  em isolamento domiciliar</string>
+  <string name="tratamento_hospitalar">  em tratamento hospitalar</string>
+  <string name="curados">Curados</string>
+  <string name="descartados">CASOS DESCARTADOS</string>
+  <string name="monitoramento">CASOS EM MONITORAMENTO</string>
+
+</resources>

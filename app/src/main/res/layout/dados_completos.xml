@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cor_background_dados"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="247dp"
+            android:layout_height="60dp"
+            android:background="@color/cor_background_boletim"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/titulo_dados_gerais"
+                android:textColor="@color/letras_brancas"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:padding="2dp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cor_background_data"
+            android:padding="4dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="18/12/1997"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:textColor="@color/letras_brancas"
+                android:textColorHint="@color/letras_brancas"
+                android:textStyle="bold"
+                android:id="@+id/text_data"
+                />
+
+            <TextView
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:hint="18h25"
+                android:id="@+id/text_horario"
+                android:textColor="@color/letras_brancas"
+                android:textColorHint="@color/letras_brancas"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:hint="12"
+            android:textColorHint="@color/letra_amarela"
+            android:textColor="@color/letra_amarela"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:id="@+id/text_casos_suspeitos"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/casos_supeitos"
+            android:textSize="24dp"
+            android:layout_marginTop="-15dp"
+            android:textColorHint="@color/corItemDaLista"
+            android:textColor="@color/corItemDaLista"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="9"
+            android:textColorHint="@color/letra_amarela"
+            android:textColor="@color/letra_amarela"
+            android:textSize="20dp"
+            android:id="@+id/text_isolamento_domiciliar"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="@string/isolamento_domiciliar"
+            android:textColorHint="@color/letras_brancas"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="9"
+            android:textColorHint="@color/letra_amarela"
+            android:textColor="@color/letra_amarela"
+            android:textSize="20dp"
+            android:id="@+id/text_tratamento_hospitalar"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="@string/tratamento_hospitalar"
+            android:textColorHint="@color/letras_brancas"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1"
+            android:textColorHint="@color/letra_amarela"
+            android:textColor="@color/letra_amarela"
+            android:textSize="20dp"
+            android:id="@+id/text_em_tratamento_hospitalar_confirmados"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="@string/tratamento_hospitalar"
+            android:textColorHint="@color/letras_brancas"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="12"
+            android:padding="15dp"
+            android:textColor="@color/letra_amarela"
+            android:textColorHint="@color/letra_amarela"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:id="@+id/text_casos_confirmados"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
+            android:text="@string/casos_confirmados"
+            android:textColor="@color/corItemDaLista"
+            android:textColorHint="@color/corItemDaLista"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="9"
+            android:padding="15dp"
+            android:textColor="@color/letra_amarela"
+            android:textColorHint="@color/letra_amarela"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:id="@+id/text_curados"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/curados"
+            android:textColor="@color/corItemDaLista"
+            android:textColorHint="@color/corItemDaLista"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-64dp"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="34"
+            android:textColor="@color/letra_amarela"
+            android:textColorHint="@color/letra_amarela"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:id="@+id/text_descartados"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descartados"
+            android:textColor="@color/corItemDaLista"
+            android:textColorHint="@color/corItemDaLista"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="-17dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="80dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="34"
+            android:textColor="@color/letra_amarela"
+            android:textColorHint="@color/letra_amarela"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:id="@+id/text_monitoramento"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monitoramento"
+            android:textColor="@color/corItemDaLista"
+            android:textColorHint="@color/corItemDaLista"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="-17dp"/>
+
+    </LinearLayout>
+</LinearLayout>

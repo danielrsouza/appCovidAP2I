@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#6200EE</color>
+  <color name="colorPrimaryDark">#3700B3</color>
+  <color name="colorAccent">#03DAC5</color>
+  <color name="corFundoMain">#252424</color>
+  <color name="corItemDaLista">#FFFFFF</color>
+  <color name="corBordaDosItensMain">#AC0000</color>
+  <color name="color_data_dados_gerais">#FFEB3B</color>
+
+
+  <color name="cor_background_dados">#696C68</color>
+  <color name="cor_background_data">#97A4AF</color>
+  <color name="letras_brancas">#FFFFFF</color>
+  <color name="cor_background_boletim">#0764A5</color>
+  <color name="letra_amarela">#D3C760</color>
+
+</resources>
